@@ -45,7 +45,7 @@ end
 
 --// UI \\--
 local screenGui, uiRequire = loadstring(game:HttpGet("https://raw.githubusercontent.com/funnyguylol/backdoor.exe/v8/src/ui.lua"))()
-local alertLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/uniquadev/GuiToLuaConverter/main/PluginPlace/src/alerts.lua"))()
+local alertLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/funnyguylol/GuiToLuaConverter/main/PluginPlace/src/alerts.lua"))()
 
 local ui = uiRequire(screenGui.main);
 local config = ui.config;
